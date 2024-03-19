@@ -15,7 +15,7 @@ export default function HomePage() {
           soluta expedita quas ipsum cumque quos suscipit quo doloremque iste
           aperiam.
         </p>
-        <Link to="/app" className="btn btn-primary">
+        <Link to="/app" className="btn btn-primary mx-5 px-5">
           ENTER
         </Link>
       </div>

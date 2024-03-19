@@ -7,6 +7,7 @@ export default function Custormer() {
   const id = useSelector((state) => state.recipe.recipe);
   console.log(id);
   const data = CustomerData;
+
   const testData = data.find((x) => x.id === id);
 
   const contactList = testData?.contact;
@@ -14,6 +15,10 @@ export default function Custormer() {
   return (
     <table className="table">
       <thead>
+        <tr className="justify-center">
+          <th scope="col">{testData.company}</th>
+          <th scope="col">{testData.division}</th>
+        </tr>
         <tr className="justify-center">
           <th scope="col">Name</th>
           <th scope="col">Title</th>
