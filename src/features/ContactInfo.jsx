@@ -1,5 +1,9 @@
 import { useSelector } from "react-redux";
 import Accordion from "react-bootstrap/Accordion";
+import Model from "../ui/Model";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 export default function ContactInfo() {
   const info = useSelector((state) => state.contact.contactInfo);
   console.log(info);
@@ -8,12 +12,27 @@ export default function ContactInfo() {
 
   return (
     <>
-      <div>
-        <h3>{name}</h3>
-        <h3>{lastName}</h3>
-        <h3>{email}</h3>
-        <h3>{phone}</h3>
-        <h3>{title}</h3>
+      <div className="container">
+        {/* <p>{name}</p>
+        <h>{lastName}</h>
+        <p>{email}</p>
+        <h5>{phone}</h5> */}
+        <Container className="mx-10">
+          <Row>
+            <Col>
+              {name} {lastName}
+            </Col>
+          </Row>
+          <Row>
+            <Col> Email: {email}</Col>
+          </Row>
+          <Row>
+            <Col> Phone: {phone}</Col>
+          </Row>
+        </Container>
+
+        <Model name={name} />
+        <p></p>
       </div>
       {message?.map((str, index) => (
         <Accordion key={str}>
