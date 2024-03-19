@@ -6,6 +6,7 @@ import ListCustomerPage from "./pages/ListCustomerPage";
 import SecondTestingPage from "./ui/SecondTestingPage";
 
 import CustomerDetail from "./pages/CustomerDetail";
+import ContactInfo from "./features/ContactInfo";
 
 export default function App() {
   return (
@@ -15,7 +16,9 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="app" element={<AppLaout />}>
             <Route index element={<ListCustomerPage />} />
-            <Route path="text2" element={<CustomerDetail />} />
+            <Route path="text2" element={<CustomerDetail />}>
+              <Route path="contact-info" element={<ContactInfo />} />
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>

@@ -4,21 +4,18 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { getRecipeObject } from "../service/customerSlice";
 
 export default function CustomerRow({ cust }) {
-  const { name, buyer, email, id } = cust;
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  function clickHandler(id, name) {
-    console.log(id, name);
+  function clickHandler(id, company) {
     dispatch(getRecipeObject(id));
     navigate("text2");
   }
-
+  const { company, division, id } = cust;
   return (
-    <tr className="table-primary" onClick={() => clickHandler(id, name)}>
-      <td>{name}</td>
-      <td>{buyer}</td>
-      <td>{email}</td>
+    <tr className="table-primary" onClick={() => clickHandler(id, company)}>
+      <td>{company}</td>
+      <td>{division}</td>
     </tr>
   );
 }

@@ -3,15 +3,15 @@ import { CustomerData } from "../utilites/CustomerData";
 
 export default function CustomerTabel() {
   const test = CustomerData;
-  console.log(test);
-  test.forEach((customer) => console.log(customer.name, customer.buyer));
+
+  test.forEach((element) => {});
+
   return (
     <table className="table">
       <thead>
         <tr className="justify-center">
           <th scope="col">COMPANY</th>
-          <th scope="col">BUYER</th>
-          <th scope="col">Email</th>
+          <th scope="col">DIVISION</th>
         </tr>
       </thead>
       <tbody>

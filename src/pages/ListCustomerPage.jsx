@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import CustomerTabel from "../features/CustomerTable";
 import Header from "../ui/Header";
 
