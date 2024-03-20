@@ -4,17 +4,17 @@ import { Col, Container, Row } from "react-bootstrap";
 
 export default function CustomerDetail() {
   return (
-    <Container>
-      <Row>
-        <Col>
+    <div className="container fluid  ">
+      <div className="row">
+        <div className="col p-4 ">
           <Custormer />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col p-4 ">
           <Outlet />
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 }

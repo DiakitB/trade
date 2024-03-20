@@ -8,7 +8,7 @@ export default function HomePage() {
       <div className="header">
         <Header />
       </div>
-      <div class="container-fluid mt-4 ">
+      <div className="container-fluid mt-4 ">
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
           voluptatum delectus dolorum consectetur eum minima rem, sed, in itaque

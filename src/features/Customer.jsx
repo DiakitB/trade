@@ -13,13 +13,13 @@ export default function Custormer() {
   const contactList = testData?.contact;
 
   return (
-    <table className="table">
+    <table className="table ">
       <thead>
         <tr className="justify-center">
           <th scope="col">{testData.company}</th>
           <th scope="col">{testData.division}</th>
         </tr>
-        <tr className="justify-center">
+        <tr className="">
           <th scope="col">Name</th>
           <th scope="col">Title</th>
         </tr>

@@ -13,7 +13,7 @@ export default function CustomerRow({ cust }) {
   }
   const { company, division, id } = cust;
   return (
-    <tr className="table-primary" onClick={() => clickHandler(id, company)}>
+    <tr className="table-primary " onClick={() => clickHandler(id, company)}>
       <td>{company}</td>
       <td>{division}</td>
     </tr>
