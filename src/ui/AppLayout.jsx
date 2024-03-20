@@ -6,7 +6,7 @@ export default function AppLaout() {
   return (
     <div className="app-layout">
       <Header />
-      <div class="container-fluid bg-danger">
+      <div class="container-fluid mt-3">
         <Outlet />
       </div>
     </div>
