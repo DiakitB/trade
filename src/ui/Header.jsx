@@ -6,17 +6,23 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-primary">
+    <Navbar expand="lg" className="bg-success">
       <Container>
-        <Navbar.Brand href="#home">BOIFOR</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img
+            src="BoiforLog.PNG"
+            alt="logo"
+            className="esc-logo slide-top fluid"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <LinkContainer to="/">
-              <Nav.Link>Customers</Nav.Link>
+              <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to=".">
-              <Nav.Link>Link</Nav.Link>
+              <Nav.Link>Customers</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

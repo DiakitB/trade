@@ -10,8 +10,12 @@ export default function CustomerTabel() {
     <table className="table">
       <thead>
         <tr className="justify-center">
-          <th scope="col">COMPANY</th>
-          <th scope="col">DIVISION</th>
+          <th scope="col">
+            <h6>Company</h6>
+          </th>
+          <th scope="col">
+            <h6>Division</h6>
+          </th>
         </tr>
       </thead>
       <tbody>

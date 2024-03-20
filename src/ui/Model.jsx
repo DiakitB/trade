@@ -23,7 +23,7 @@ function Model({ name }) {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Start writing your note</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <form
@@ -34,14 +34,14 @@ function Model({ name }) {
               {...register("text")}
               className="form-control"
               id="text"
-              rows="10"
+              rows="15"
             ></textarea>
             <label className="form-label" htmlFor="text"></label>
             <button
               className="btn btn-primary  my-4 px-5"
               onClick={handleClose}
             >
-              test
+              Add
             </button>
           </form>
         </Modal.Body>

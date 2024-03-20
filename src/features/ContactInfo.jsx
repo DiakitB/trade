@@ -12,28 +12,23 @@ export default function ContactInfo() {
 
   return (
     <>
-      <div className="container">
-        {/* <p>{name}</p>
-        <h>{lastName}</h>
-        <p>{email}</p>
-        <h5>{phone}</h5> */}
-        <Container className="mx-10">
-          <Row>
-            <Col>
-              {name} {lastName}
-            </Col>
-          </Row>
-          <Row>
-            <Col> Email: {email}</Col>
-          </Row>
-          <Row>
-            <Col> Phone: {phone}</Col>
-          </Row>
-        </Container>
+      <Container className="">
+        <Row>
+          <Col>
+            {name} {lastName}
+          </Col>
+        </Row>
+        <Row>
+          <Col> Email: {email}</Col>
+        </Row>
+        <Row>
+          <Col> Phone: {phone}</Col>
+        </Row>
+      </Container>
 
-        <Model name={name} />
-        <p></p>
-      </div>
+      <Model name={name} />
+      <p></p>
+
       {message?.map((str, index) => (
         <Accordion key={str}>
           <Accordion.Item eventKey={`${index}`}>
