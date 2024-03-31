@@ -31,12 +31,12 @@ export default function CompaniesTabel() {
       <table className="table table-dark table-striped">
         <thead>
           <tr className="justify-center">
-            <th scope="col" className="text-center">
+            <th scope="col">
               <h6 className="font-italic text-success fst-italic fw-bold text-uppercase">
                 Company
               </h6>
             </th>
-            <th scope="col" className="text-center">
+            <th scope="col">
               <h6 className="font-italic text-success fst-italic fw-bold text-uppercase">
                 Division
               </h6>
