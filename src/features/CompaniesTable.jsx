@@ -41,11 +41,11 @@ export default function CompaniesTabel() {
                 Division
               </h6>
             </th>
-            <th scope="col" className="text-center">
+            {/* <th scope="col" className="text-center">
               <h6 className="font-italic text-success fst-italic fw-bold text-uppercase">
                 Setting
               </h6>
-            </th>
+            </th> */}
           </tr>
         </thead>
         <tbody>
