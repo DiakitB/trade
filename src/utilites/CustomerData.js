@@ -35,7 +35,7 @@ export const CustomerData = [
   },
   {
     id: 2,
-    company: "Resolu",
+    company: "RESOLU",
     division: "Ladore",
     message: [
       "obj 5",
@@ -69,7 +69,7 @@ export const CustomerData = [
   },
   {
     id: 3,
-    company: "Norboard",
+    company: "NORBOARD",
     division: "lassar",
     message: [
       "obj 7",
