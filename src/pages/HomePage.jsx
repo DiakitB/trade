@@ -2,7 +2,6 @@ import { Link, useNavigate } from "react-router-dom";
 import Header from "../ui/Header";
 
 export default function HomePage() {
-  const navigate = useNavigate();
   return (
     <div>
       <div className="header">
