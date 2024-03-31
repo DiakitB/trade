@@ -1,40 +1,51 @@
-export default function Form() {
-  return (
-    <form>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputCompany">Company</label>
-          <input
-            type="email"
-            class="form-control"
-            id="inputCompany"
-            placeholder="Company Name"
-          />
-        </div>
-        <div class="form-group col-md-6">
-          <label for="inputDivision">Division</label>
-          <input
-            type="password"
-            class="form-control"
-            id="inputDivision"
-            placeholder="Division"
-          />
-        </div>
-      </div>
-      <div class="form-group">
-        <label for="inputContact">Contact</label>
-        <input
-          type="text"
-          class="form-control"
-          id="inputContact"
-          placeholder="Contact"
-        />
-      </div>
+import { useNavigate } from "react-router-dom";
 
-      <button type="submit" class="btn btn-primary">
-        Add
-      </button>
-    </form>
+export default function Form() {
+  const navigate = useNavigate();
+  return (
+    <>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCompany">Company</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputCompany"
+              placeholder="Company Name"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputDivision">Division</label>
+            <input
+              type="password"
+              class="form-control"
+              id="inputDivision"
+              placeholder="Division"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputContact">Contact</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputContact"
+            placeholder="Contact"
+          />
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          Add
+        </button>
+      </form>
+
+      <div className="text-end">
+        <button className="btn btn-primary px-4" onClick={() => navigate(-1)}>
+          Go back to contact list
+        </button>
+      </div>
+    </>
   );
 }
 
