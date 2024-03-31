@@ -2,8 +2,11 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useForm } from "react-hook-form";
+import { useSelector } from "react-redux";
+import { CustomerData } from "../utilites/CustomerData";
 
 function Model({ name }) {
+  const id = useSelector((state) => state.recipe.recipe);
   const [show, setShow] = useState(false);
   console.log(name);
   const handleClose = () => setShow(false);
@@ -11,14 +14,17 @@ function Model({ name }) {
   const { register, handleSubmit, reset } = useForm();
   function onSubmidHandler(data) {
     console.log(data);
-    console.log("inside form");
+    const currentMill = CustomerData.find((x) => x.id === id);
+    console.log(currentMill);
+    currentMill?.message.unshift(data.text);
     reset();
   }
   console.log("outside form");
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Add a note to {name} inbox
+        Add a note for {name}
+        {`this is the id # ${id}`}
       </Button>
 
       <Modal show={show} onHide={handleClose}>

@@ -1,12 +1,10 @@
 import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import AppLaout from "./ui/AppLayout";
-import CustomerPage from "./pages/HomePage";
-import ListCustomerPage from "./pages/ListCustomerPage";
-import SecondTestingPage from "./ui/SecondTestingPage";
-
-import CustomerDetail from "./pages/CustomerDetail";
 import ContactInfo from "./features/ContactInfo";
+import ContactDetail from "./pages/ContactDetail";
+import CompaniesPage from "./pages/CompaniesPage";
+import CompanyNotes from "./ui/CompanyNotes";
 
 export default function App() {
   return (
@@ -14,9 +12,10 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="notes" element={<CompanyNotes />} />
           <Route path="app" element={<AppLaout />}>
-            <Route index element={<ListCustomerPage />} />
-            <Route path="text2" element={<CustomerDetail />}>
+            <Route index element={<CompaniesPage />} />
+            <Route path="text2" element={<ContactDetail />}>
               <Route path="contact-info" element={<ContactInfo />} />
             </Route>
           </Route>

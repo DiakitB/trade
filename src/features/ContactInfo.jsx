@@ -22,7 +22,7 @@ export default function ContactInfo() {
           <Model name={name} />
         </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-sm-12">
           {message?.map((str, index) => (
             <Accordion key={str}>
@@ -33,7 +33,7 @@ export default function ContactInfo() {
             </Accordion>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

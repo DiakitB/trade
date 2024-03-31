@@ -3,6 +3,12 @@ export const CustomerData = [
     id: 1,
     company: "ARBEC",
     division: "parent",
+    message: [
+      "obj 1",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
+      "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
+    ],
     contact: [
       {
         name: "Marc",
@@ -10,12 +16,6 @@ export const CustomerData = [
         email: "marc@gmail.com",
         phone: "123 456 78910",
         title: "buyer",
-        message: [
-          "obj 1",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "David",
@@ -23,12 +23,6 @@ export const CustomerData = [
         email: "davidc@gmail.com",
         phone: "123 456 78910",
         title: "mecanic",
-        message: [
-          "obj 2",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Babacar",
@@ -36,12 +30,6 @@ export const CustomerData = [
         email: "babacar@gmail.com",
         phone: "123 456 78910",
         title: "it",
-        message: [
-          "obj 3",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
     ],
   },
@@ -49,6 +37,12 @@ export const CustomerData = [
     id: 2,
     company: "Resolu",
     division: "Ladore",
+    message: [
+      "obj 5",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
+      "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
+    ],
     contact: [
       {
         name: "Vanessa",
@@ -56,12 +50,6 @@ export const CustomerData = [
         email: "vanessa@gmail.com",
         phone: "123 456 78910",
         title: "buyer",
-        message: [
-          "obj 4",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Christopher",
@@ -69,12 +57,6 @@ export const CustomerData = [
         email: "christopher@gmail.com",
         phone: "123 456 78910",
         title: "mecanic",
-        message: [
-          "obj 5",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "jean",
@@ -82,12 +64,6 @@ export const CustomerData = [
         email: "babacar@gmail.com",
         phone: "123 456 78910",
         title: "it",
-        message: [
-          "obj 6",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
     ],
   },
@@ -95,6 +71,12 @@ export const CustomerData = [
     id: 3,
     company: "Norboard",
     division: "lassar",
+    message: [
+      "obj 7",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
+      "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
+    ],
     contact: [
       {
         name: "Alex",
@@ -102,12 +84,6 @@ export const CustomerData = [
         email: "alex@gmail.com",
         phone: "123 456 78910",
         title: "buyer",
-        message: [
-          "obj 7",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "John",
@@ -115,12 +91,6 @@ export const CustomerData = [
         email: "john@gmail.com",
         phone: "123 456 78910",
         title: "mecanic",
-        message: [
-          "obj 8",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Krista",
@@ -128,12 +98,6 @@ export const CustomerData = [
         email: "babacar@gmail.com",
         phone: "123 456 78910",
         title: "it",
-        message: [
-          "obj 9",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
     ],
   },
@@ -141,6 +105,12 @@ export const CustomerData = [
     id: 4,
     company: "CREATE",
     division: "Lachine",
+    message: [
+      "obj 10",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit 10",
+      "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque 10",
+      " 10soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
+    ],
     contact: [
       {
         name: "Rose",
@@ -148,12 +118,6 @@ export const CustomerData = [
         email: "rose@gmail.com",
         phone: "123 456 78910",
         title: "buyer",
-        message: [
-          "obj 10",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit 10",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque 10",
-          " 10soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Stepjane",
@@ -161,12 +125,6 @@ export const CustomerData = [
         email: "stephan@gmail.com",
         phone: "123 456 78910",
         title: "mecanic",
-        message: [
-          "obj 11",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Adala",
@@ -174,12 +132,6 @@ export const CustomerData = [
         email: "abdala@gmail.com",
         phone: "123 456 78910",
         title: "it",
-        message: [
-          "obj 12",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
     ],
   },
@@ -187,6 +139,12 @@ export const CustomerData = [
     id: 5,
     company: "DAAQUM",
     division: "parent",
+    message: [
+      "obj 13",
+      " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
+      "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
+      "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
+    ],
     contact: [
       {
         name: "Joely",
@@ -194,12 +152,6 @@ export const CustomerData = [
         email: "joely@gmail.com",
         phone: "123 456 78910",
         title: "buyer",
-        message: [
-          "obj 13",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Ousmane",
@@ -207,12 +159,6 @@ export const CustomerData = [
         email: "ousmane@gmail.com",
         phone: "123 456 78910",
         title: "mecanic",
-        message: [
-          "obj 14",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
       {
         name: "Roxan",
@@ -220,12 +166,6 @@ export const CustomerData = [
         email: "roxan@gmail.com",
         phone: "123 456 78910",
         title: "it",
-        message: [
-          "obj 15",
-          " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-          "Laborevoluptatum delectus dolorum consectetur eum minima rem, sed, in itaque",
-          "soluta expedita quas ipsum cumque quos suscipit quo doloremque iste aperiam",
-        ],
       },
     ],
   },

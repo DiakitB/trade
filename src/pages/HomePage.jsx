@@ -15,8 +15,8 @@ export default function HomePage() {
           soluta expedita quas ipsum cumque quos suscipit quo doloremque iste
           aperiam.
         </p>
-        <div className="container">
-          <Link to="/app" className="btn btn-primary mx-5 px-5">
+        <div className="container text-center">
+          <Link to="/app" className="btn btn-primary mx-5">
             ENTER
           </Link>
         </div>

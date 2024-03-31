@@ -1,7 +1,7 @@
-import CustomerRow from "./CustomerRow";
+import CompanyRow from "./CompanyRow";
 import { CustomerData } from "../utilites/CustomerData";
 
-export default function CustomerTabel() {
+export default function CompaniesTabel() {
   const test = CustomerData;
 
   test.forEach((element) => {});
@@ -20,7 +20,7 @@ export default function CustomerTabel() {
       </thead>
       <tbody>
         {test?.map((cust) => (
-          <CustomerRow cust={cust} key={cust.id} />
+          <CompanyRow cust={cust} key={cust.id} />
         ))}
       </tbody>
     </table>
