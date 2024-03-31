@@ -15,7 +15,7 @@ export default function HomePage() {
           aperiam.
         </p>
         <div className="container text-center">
-          <Link to="/app" className="btn btn-primary mx-5">
+          <Link to="/app" className="btn btn-primary px-5">
             ENTER
           </Link>
         </div>
