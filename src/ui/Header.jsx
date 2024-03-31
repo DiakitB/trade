@@ -18,6 +18,9 @@ function Header() {
             <LinkContainer to=".">
               <Nav.Link>Customers</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/form">
+              <Nav.Link>Add A New Company</Nav.Link>
+            </LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

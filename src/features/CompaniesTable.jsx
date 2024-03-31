@@ -1,11 +1,11 @@
 import CompanyRow from "./CompanyRow";
 import { CustomerData } from "../utilites/CustomerData";
 import { useState } from "react";
-import { Trash } from "../utilites/icons";
-import { Edit } from "../utilites/icons";
+import { useNavigate } from "react-router-dom";
 
 export default function CompaniesTabel() {
   const [filteredUsers, setFilteredUsers] = useState(CustomerData);
+  const navigate = useNavigate();
   const test = CustomerData;
 
   console.log(test);
@@ -55,8 +55,12 @@ export default function CompaniesTabel() {
         </tbody>
       </table>
       <div className="container text-center">
-        <button type="button" class="btn btn-primary btn-lg ">
-          Large button
+        <button
+          type="button"
+          class="btn btn-primary btn-lg "
+          onClick={() => navigate("/form")}
+        >
+          Add a New Company
         </button>
       </div>
     </>

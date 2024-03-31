@@ -5,6 +5,7 @@ import ContactInfo from "./features/ContactInfo";
 import ContactDetail from "./pages/ContactDetail";
 import CompaniesPage from "./pages/CompaniesPage";
 import CompanyNotes from "./ui/CompanyNotes";
+import Form from "./ui/Form";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="notes" element={<CompanyNotes />} />
+          <Route path="form" element={<Form />} />
           <Route path="app" element={<AppLaout />}>
             <Route index element={<CompaniesPage />} />
             <Route path="text2" element={<ContactDetail />}>
