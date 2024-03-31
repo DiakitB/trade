@@ -17,18 +17,18 @@ export default function CompanyContact() {
     <table className="table ">
       <thead>
         <tr className="justify-center">
-          <th scope="col">{testData.company}</th>
-          <th scope="col">{testData.division}</th>
-        </tr>
-        <tr className="justify-center">
-          <th scope="col" className="text-center">
-            <h4>Click on any name to get more information</h4>
+          <th scope="col" className="font-italic">
+            <h2 className="font-italic text-danger">{testData.company}</h2>
+          </th>
+          <th scope="col">
+            <h2 className="font-italic text-danger">{testData.division}</h2>
           </th>
         </tr>
+
         <tr className="justify-center bg-primary">
           <th scope="col" className="text-center">
             <button
-              className="btn btn-warning"
+              className="btn btn-warning p-x-4 text-center"
               onClick={() => navigate("/notes")}
             >
               GET NOTES
