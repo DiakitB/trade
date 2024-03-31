@@ -11,9 +11,9 @@ export default function HomePage() {
         <p>
           Welcome to
           <span></span>{" "}
-          <span className="text-success fw-bold">EQUIMENT BOIFOR</span> , your
-          one-stop-shop for your sawmill equipment. You no longer need to visit
-          multiple suppliers to get the parts you need. We supply all the
+          <span className="text-success fw-bold">EQUIMENT BOIFOR</span>.
+          One-stop-shop for all your sawmill equipment. You no longer need to
+          visit multiple suppliers to get the parts you need. We supply all the
           required components for your machinery and can even tailor them to
           your specific requirements..
         </p>
