@@ -9,10 +9,13 @@ export default function HomePage() {
       </div>
       <div className="container-fluid mt-4 ">
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
-          voluptatum delectus dolorum consectetur eum minima rem, sed, in itaque
-          soluta expedita quas ipsum cumque quos suscipit quo doloremque iste
-          aperiam.
+          Welcome to
+          <span></span>{" "}
+          <span className="text-success fw-bold">EQUIMENT BOIFOR</span> , your
+          one-stop-shop for your sawmill equipment. You no longer need to visit
+          multiple suppliers to get the parts you need. We supply all the
+          required components for your machinery and can even tailor them to
+          your specific requirements..
         </p>
         <div className="container text-center">
           <Link to="/app" className="btn btn-primary px-5">
