@@ -19,19 +19,25 @@ export default function CompaniesTabel() {
 
   return (
     <>
-      <input
-        placeholder="Search for company"
-        type="text"
-        onChange={handleFilter}
-      />
-      <table className="table">
+      <div className="container text-center mb-2">
+        <input
+          placeholder="Search for company"
+          type="text"
+          onChange={handleFilter}
+        />
+      </div>
+      <table className="table table-dark table-striped">
         <thead>
           <tr className="justify-center">
             <th scope="col">
-              <h6>Company</h6>
+              <h6 className="font-italic text-success fst-italic fw-bold text-uppercase">
+                Company
+              </h6>
             </th>
             <th scope="col">
-              <h6>Division</h6>
+              <h6 className="font-italic text-success fst-italic fw-bold text-uppercase">
+                Division
+              </h6>
             </th>
           </tr>
         </thead>

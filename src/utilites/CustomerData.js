@@ -2,7 +2,7 @@ export const CustomerData = [
   {
     id: 1,
     company: "ARBEC",
-    division: "parent",
+    division: "PARENT",
     message: [
       "obj 1",
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
@@ -36,7 +36,7 @@ export const CustomerData = [
   {
     id: 2,
     company: "RESOLU",
-    division: "Ladore",
+    division: "LADORE",
     message: [
       "obj 5",
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
@@ -70,7 +70,7 @@ export const CustomerData = [
   {
     id: 3,
     company: "NORBOARD",
-    division: "lassar",
+    division: "LASSAR",
     message: [
       "obj 7",
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit",
@@ -104,7 +104,7 @@ export const CustomerData = [
   {
     id: 4,
     company: "CREATE",
-    division: "Lachine",
+    division: "LACHINE",
     message: [
       "obj 10",
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit 10",
@@ -138,7 +138,7 @@ export const CustomerData = [
   {
     id: 5,
     company: "DAAQUM",
-    division: "parent",
+    division: "PARENT",
     message: [
       "obj 13",
       " Lorem ipsum dolor sit, amet consectetur adipisicing elit",

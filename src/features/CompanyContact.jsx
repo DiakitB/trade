@@ -18,10 +18,14 @@ export default function CompanyContact() {
       <thead>
         <tr className="justify-center">
           <th scope="col" className="font-italic">
-            <h2 className="font-italic text-danger">{testData.company}</h2>
+            <h2 className="font-italic text-success fst-italic fw-bold">
+              {testData.company}
+            </h2>
           </th>
           <th scope="col">
-            <h2 className="font-italic text-danger">{testData.division}</h2>
+            <h2 className="font-italic text-success fst-italic fw-bold">
+              {testData.division}
+            </h2>
           </th>
         </tr>
 

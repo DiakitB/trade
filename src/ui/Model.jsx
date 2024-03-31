@@ -24,7 +24,6 @@ function Model({ name }) {
     <>
       <Button variant="primary" onClick={handleShow}>
         Add a note for {name}
-        {`this is the id # ${id}`}
       </Button>
 
       <Modal show={show} onHide={handleClose}>
